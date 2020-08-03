@@ -12,8 +12,8 @@ except ValueError:
     exit(0)
 try:
     if x % y == 0:
-        print (f"numerator {x} is divisible by denominator {y}.")
+        print(f"numerator {x} is divisible by denominator {y}.")
     else:
-        print ("division is not entire")
+        print("division is not entire")
 except ZeroDivisionError:
     print("SHIT!")
